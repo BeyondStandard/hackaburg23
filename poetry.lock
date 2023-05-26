@@ -476,6 +476,7 @@ files = [
 
 [package.dependencies]
 numpy = [
+    {version = ">=1.20.3", markers = "python_version < \"3.10\""},
     {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
     {version = ">=1.23.2", markers = "python_version >= \"3.11\""},
 ]
@@ -1057,5 +1058,5 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.10"
-content-hash = "e52429ec0dc26365c8828ba90e922dd0288f92cb2abb05768de6686b717bb9f3"
+python-versions = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+content-hash = "26789f7abce6c170595fb94ea5ed32bb38f011f4a3278a521ed0cae8ffd4080d"

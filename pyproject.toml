@@ -2,12 +2,12 @@
 name = "hackaburg23-frontend"
 version = "0.1.0"
 description = ""
-authors = ["", "", "", "", ""]
+authors = ["Daud Taj <daud.taj@googlemail.com>"]
 readme = "README.md"
 packages = [{include = "hackaburg23_frontend"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
 streamlit = "^1.22.0"
 st-click-detector = "^0.1.3"
 
