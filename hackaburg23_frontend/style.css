@@ -5,7 +5,7 @@
     src: url("../fonts/StagSansRegular.ttf") format("truetype");
 }
 
-html, body, [class*="css"] {
+html, body {
     font-family: 'StagSans'; 
     /* font-size: 18px;
     font-weight: 500;
