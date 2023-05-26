@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "StagSans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/StagSansRegular.ttf") format("truetype");
+}
+
+html, body, [class*="css"] {
+    font-family: 'StagSans'; 
+    /* font-size: 18px;
+    font-weight: 500;
+    color: #091747; */
+}
