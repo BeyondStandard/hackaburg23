@@ -14,7 +14,7 @@
 
 .dash-spinner {
     background-image: url("loading.gif");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

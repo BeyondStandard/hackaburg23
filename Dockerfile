@@ -1,4 +1,4 @@
-FROM python:3.10-slim AS base
+FROM python:3.9-slim AS base
 ENV PYTHONUNBUFFERED=1 \
     PYTHONHASHSEED=random \
     PYTHONFAULTHANDLER=1 \
@@ -32,4 +32,4 @@ FROM base AS production
 WORKDIR /app
 COPY --from=build /app/dist ./
 RUN pipx install *.tar.gz
-CMD ["python", "-m", "streamlit", "run", "hackaburg23_frontend/onepager.py"]
+CMD ["python", "hackaburg23_frontend/app.py"]
